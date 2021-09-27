@@ -1,0 +1,21 @@
+@import 'base/tipografias';
+@import 'base/reset';
+@import 'base/imagenesResponsive';
+@import 'base/extends';
+@import 'base/mixins';
+
+@import 'components/carrousel';
+@import 'components/asideIndex';
+@import 'components/asideContacto';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/nav';
+
+@import 'views/mainIndex';
+@import 'views/mainHistoria';
+@import 'views/mainTitulos';
+@import 'views/mainGaleria';
+@import 'views/mainContacto';
+
+@import 'utilities/variables';

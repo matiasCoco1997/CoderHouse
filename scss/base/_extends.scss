@@ -1,0 +1,26 @@
+@import 'utilities/variables';
+
+// BORDES AMARILLOS GENERICOS
+.bordesFinosAmarillos{
+    border: 3px solid $amarillo;
+}
+
+.bordesAnchosAmarillos{
+    border: 5px solid $amarillo;
+}
+
+// CARROUSEL
+.bordesAnchosAmarillosVerticales{
+    border-top: 5px solid $amarillo;
+    border-bottom: 5px solid $amarillo;
+}
+
+// BORDES NEGROS
+.bordesFinosNegros{
+    border: 3px solid $negro;
+}
+
+.bordesAnchosNegros{
+    border: 5px solid $negro;
+    border-radius: 30px;
+}

@@ -1,0 +1,611 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: 100%; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.carrusel {
+  width: 100%;
+  height: 250px; }
+  .carrusel__containerImagenes {
+    width: 100%;
+    height: 100%; }
+  .carrusel__containerImagen {
+    width: 100%;
+    height: 100%; }
+  .carrusel__img {
+    width: 100%;
+    height: 100%; }
+  .carrusel__flechaIzquierda {
+    width: 50px;
+    height: 50px; }
+  .carrusel__flechaDerecha {
+    width: 50px;
+    height: 50px; }
+
+@media only screen and (min-width: 600px) {
+  .carrusel {
+    width: 100%;
+    height: 500px; } }
+
+@media only screen and (min-width: 992px) {
+  .carrusel {
+    width: 100%;
+    height: 600px; }
+    .carrusel__flechaIzquierda {
+      width: 80px;
+      height: 80px; }
+    .carrusel__flechaDerecha {
+      width: 80px;
+      height: 80px; } }
+
+@media only screen and (min-width: 1400px) {
+  .carrusel {
+    width: 100%;
+    height: 800px; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.containerAside__oferta {
+  display: none;
+  width: 90%;
+  height: 30%;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.781);
+  color: #021d5c;
+  max-width: 250px; }
+
+.containerAside__containerSponsors {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  max-width: 600px; }
+
+.containerAside__adidas {
+  width: 20%;
+  height: auto;
+  max-width: 150px; }
+
+.containerAside__qatar {
+  width: 20%;
+  height: auto;
+  max-width: 150px; }
+
+.containerAside__garbarino {
+  width: 40%;
+  height: auto;
+  max-width: 150px; }
+
+@media only screen and (min-width: 992px) {
+  .containerAside__containerSponsors {
+    width: 90%;
+    height: 30%;
+    max-width: 250px; }
+  .containerAside__adidas {
+    width: 50%;
+    height: auto;
+    max-width: none; }
+  .containerAside__qatar {
+    width: 50%;
+    height: auto;
+    max-width: none; }
+  .containerAside__garbarino {
+    width: 70%;
+    height: auto;
+    max-width: none; } }
+
+@media only screen and (min-width: 1400px) {
+  .containerAside__oferta {
+    height: 45%; }
+  .containerAside__containerSponsors {
+    height: 45%; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.containerAsideContacto__containerSponsors {
+  border-radius: 20px;
+  max-width: 600px; }
+
+.containerAsideContacto__adidas {
+  width: 20%;
+  height: auto; }
+
+.containerAsideContacto__qatar {
+  width: 20%;
+  height: auto; }
+
+.containerAsideContacto__garbarino {
+  width: 40%;
+  height: auto; }
+
+@media only screen and (min-width: 575px) {
+  .containerAsideContacto {
+    width: auto;
+    height: 500px; }
+    .containerAsideContacto__containerSponsors {
+      width: auto;
+      height: 100%; }
+    .containerAsideContacto__adidas {
+      width: 60%;
+      height: auto;
+      max-width: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .containerAsideContacto__qatar {
+      width: 80%;
+      height: auto;
+      max-width: 120px; }
+    .containerAsideContacto__garbarino {
+      width: 100%;
+      height: auto;
+      max-width: 120px; } }
+
+@media only screen and (min-width: 992px) {
+  .containerAsideContacto {
+    width: 70%;
+    height: auto; }
+    .containerAsideContacto__containerSponsors {
+      width: 80%;
+      height: auto; }
+    .containerAsideContacto__adidas {
+      width: 30%;
+      height: auto; }
+    .containerAsideContacto__qatar {
+      width: 30%;
+      height: auto; }
+    .containerAsideContacto__garbarino {
+      width: 40%;
+      height: auto; } }
+
+.containerHeader {
+  display: flex;
+  align-items: center;
+  background-color: #034EA2; }
+  .containerHeader__logo {
+    max-width: 70px;
+    margin-left: 10px; }
+  .containerHeader__contenedorTitulo {
+    width: 70%;
+    height: auto; }
+  .containerHeader__titulo {
+    color: #FFDD00;
+    font-family: "Roboto", sans-serif;
+    width: 200px;
+    height: auto;
+    margin-bottom: 0px;
+    margin-left: 10px; }
+  .containerHeader__titulo--negrita {
+    font-weight: bold; }
+  .containerHeader__containerSponsors {
+    display: none; }
+
+@media only screen and (min-width: 600px) {
+  .containerHeader {
+    justify-content: space-between; }
+    .containerHeader__containerSponsors {
+      display: flex;
+      justify-content: space-evenly;
+      width: 30%;
+      height: auto; }
+    .containerHeader__sponsor {
+      width: 60px;
+      height: auto;
+      padding: 5px; } }
+
+@media only screen and (min-width: 815px) {
+  .containerHeader__titulo {
+    width: 250px;
+    height: auto; }
+  .containerHeader__sponsor {
+    width: 80px;
+    height: auto;
+    padding: 5px; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.containerFooter {
+  background-color: #000;
+  color: #fff; }
+  .containerFooter__datosDeContacto {
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 30px;
+    max-width: 415px; }
+  .containerFooter__escudo {
+    width: 70%;
+    height: auto;
+    max-width: 290px; }
+  .containerFooter__containerRedesSociales {
+    display: flex;
+    width: 100%;
+    height: auto; }
+  .containerFooter__titulo {
+    width: 100%;
+    text-align: center; }
+  .containerFooter__enlaceRedSocial {
+    width: 35px;
+    height: auto; }
+  .containerFooter__copyright {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+
+@media only screen and (min-width: 992px) {
+  .containerFooter__copyright {
+    flex-direction: row;
+    justify-content: space-around; } }
+
+.nav {
+  background-color: #021d5c;
+  font-family: "Roboto", sans-serif; }
+  .nav__containerEnlaces {
+    width: 100%;
+    height: auto; }
+  .nav__enlace {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 54px;
+    padding: 15px; }
+  .nav__enlace#enlaceHome {
+    color: #FFDD00; }
+  .nav__enlace#enlaceHistoria {
+    color: #FFDD00; }
+  .nav__enlace#enlaceTitulos {
+    color: #FFDD00; }
+  .nav__enlace#enlaceGaleria {
+    color: #FFDD00; }
+  .nav__enlace#enlaceContacto {
+    color: #FFDD00; }
+  .nav__enlace#enlaceError {
+    color: #FFDD00; }
+  .nav__enlace#enlaceHome:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace#enlaceHistoria:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace#enlaceTitulos:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace#enlaceGaleria:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace#enlaceContacto:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace#enlaceError:hover {
+    background-color: #FFDD00;
+    color: #021d5c; }
+  .nav__enlace--izquierda {
+    text-align: start;
+    margin-left: 10px; }
+  .nav__enlace--derecha {
+    text-align: end;
+    margin-right: 10px; }
+
+@media only screen and (min-width: 992px) {
+  .nav__containerEnlaces--escritorio {
+    justify-content: center; }
+  .nav__opcion {
+    width: 15%;
+    height: auto; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.mainContainer {
+  background-color: #034EA2; }
+  .mainContainer__containerNoticia {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    max-width: 600px; }
+  .mainContainer__tituloNoticia {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold; }
+  .mainContainer__imgNoticia {
+    max-width: 500px; }
+  .mainContainer__textoNoticia {
+    padding: 10px;
+    padding-top: 0px; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; }
+
+@media only screen and (min-width: 992px) {
+  .mainContainer__containerNoticia {
+    max-width: 1300px; }
+  .mainContainer__tituloNoticia {
+    width: 100%;
+    height: auto; }
+  .mainContainer__imgNoticia {
+    width: 80%;
+    height: auto;
+    max-width: none; }
+  .mainContainer__textoNoticia {
+    width: 100%;
+    height: auto; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; } }
+
+@media only screen and (min-width: 1400px) {
+  .mainContainer__imgNoticia {
+    width: 50%;
+    height: auto;
+    max-width: none; }
+  .mainContainer__textoNoticia {
+    width: 50%;
+    height: auto; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.containerHistoria {
+  font-family: "Roboto", sans-serif;
+  color: #FFDD00; }
+  .containerHistoria__titulo {
+    font-size: 1.5rem; }
+  .containerHistoria__texto {
+    font-size: 1rem; }
+  .containerHistoria__containerImg {
+    max-width: 680px; }
+  .containerHistoria__img {
+    border-radius: 20px; }
+  .containerHistoria__separadorGrande.col-11 {
+    height: 8px;
+    opacity: 1;
+    color: #FFDD00; }
+  .containerHistoria__separadorComun.col-9 {
+    height: 3px;
+    opacity: 1;
+    color: #FFDD00; }
+
+@media only screen and (min-width: 600px) {
+  .containerHistoria__titulo {
+    font-size: 1.8rem; }
+  .containerHistoria__texto {
+    font-size: 1.2rem; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.containerTitulos {
+  font-family: "Roboto", sans-serif;
+  color: #FFDD00; }
+  .containerTitulos__cabecera {
+    color: #034EA2;
+    background-color: #FFDD00;
+    font-weight: bold;
+    width: 100%;
+    height: 60px; }
+  .containerTitulos__informacion {
+    width: 100%;
+    height: 55px; }
+  .containerTitulos__titulosInternacionales {
+    width: 100%;
+    height: auto; }
+  .containerTitulos__titulosNacionales {
+    width: 100%;
+    height: auto; }
+  .containerTitulos__containerImagen {
+    width: 30%;
+    height: auto; }
+  .containerTitulos__img {
+    border-radius: 15px; }
+
+@media only screen and (min-width: 992px) {
+  .containerTitulos__containerImagen {
+    width: 100%;
+    height: auto; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.galeria__fotografia {
+  border-radius: 30px;
+  width: 80%;
+  height: auto;
+  max-width: 400px; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #FFDD00; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #FFDD00; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #FFDD00;
+  border-bottom: 5px solid #FFDD00; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 3px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 5px solid #000;
+  border-radius: 30px; }
+
+.formulario {
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #FFDD00;
+  width: 95%;
+  height: auto;
+  max-width: 500px; }
+  .formulario__titulo {
+    color: #FFDD00;
+    font-weight: bold; }
+  .formulario__tituloInput {
+    width: 100%;
+    height: auto; }
+  .formulario__ingresoDeDatos {
+    width: 100%;
+    height: auto;
+    background-color: #034EA2;
+    color: #FFDD00;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .formulario__ingresoDeDatos::placeholder {
+    color: #FFDD00;
+    opacity: 0.85; }
+  .formulario__ingresoDeDatos:focus {
+    outline: none; }
+  .formulario__containerBotones {
+    width: 100%;
+    height: auto;
+    display: flex; }
+  .formulario__boton {
+    width: 45%;
+    height: auto;
+    color: #034EA2;
+    font-weight: bold;
+    background-color: #FFDD00;
+    border-radius: 10px; }
+  .formulario__boton:hover {
+    color: #FFDD00;
+    background-color: #034EA2;
+    border-color: #FFDD00; }
+
+.imagenContacto {
+  border-radius: 30px; }

@@ -1,0 +1,53 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+
+.containerHistoria{
+        font-family: $fuenteRoboto;
+        color: $amarillo;
+
+        &__titulo{
+            font-size: 1.5rem;
+        }
+    
+        &__texto{
+            font-size: 1rem;
+        }
+
+        &__containerImg{
+            max-width: 680px
+        }
+
+        &__img{
+            @extend .bordesFinosAmarillos;
+            border-radius: 20px;
+        }
+
+        &__separadorGrande.col-11{
+            height: 8px;
+            opacity: 1;
+            color: $amarillo;
+        }
+    
+        &__separadorComun.col-9{
+            height: 3px;
+            opacity: 1;
+            color: $amarillo;
+        }
+}
+
+@media only screen and (min-width:600px){
+
+    .containerHistoria{
+
+        &__titulo{
+            font-size: 1.8rem;
+        }
+    
+        &__texto{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+

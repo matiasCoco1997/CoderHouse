@@ -1,0 +1,78 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.containerAsideContacto{
+
+    &__containerSponsors{
+        @extend .bordesFinosAmarillos;
+        border-radius: 20px;
+        max-width: 600px;
+    }
+
+    &__adidas{
+        @include tamanio(20%, auto);
+    }
+
+    &__qatar{
+        @include tamanio(20%,auto);
+    }
+
+    &__garbarino{
+        @include tamanio(40%,auto);
+    } 
+}
+
+
+
+@media only screen and (min-width:575px){
+
+    .containerAsideContacto{
+        @include tamanio(auto, 500px);
+
+        &__containerSponsors{
+            @include tamanio(auto, 100%);
+        }
+    
+        &__adidas{
+            @include tamanio(60%, auto);
+            max-width: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        &__qatar{
+            @include tamanio(80%, auto);
+            max-width: 120px;
+        }
+    
+        &__garbarino{
+            @include tamanio(100%, auto);
+            max-width: 120px;
+        } 
+    }
+}
+
+@media only screen and (min-width:992px){
+
+    .containerAsideContacto{
+        @include tamanio(70%, auto);
+
+        &__containerSponsors{
+            @include tamanio(80%, auto);
+        }
+    
+        &__adidas{
+            @include tamanio(30%, auto);
+        }
+    
+        &__qatar{
+            @include tamanio(30%, auto);
+        }
+    
+        &__garbarino{
+            @include tamanio(40%, auto);
+        } 
+    }
+}

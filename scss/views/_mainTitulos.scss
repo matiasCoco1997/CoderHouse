@@ -1,0 +1,50 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.containerTitulos{
+    font-family: $fuenteRoboto;
+    color: $amarillo;
+
+    &__cabecera{
+        color: $azulClaro;
+        background-color: $amarillo;
+        @extend .bordesFinosNegros;
+        font-weight: $negrita;
+        @include tamanio(100%,60px);
+    }
+
+    &__informacion{
+        @extend .bordesFinosNegros;
+        @include tamanio(100%,55px);
+    }
+
+    &__titulosInternacionales{
+        @include tamanio(100%,auto);
+    }
+
+    &__titulosNacionales{
+        @include tamanio(100%,auto);
+    }
+
+    &__containerImagen{
+        @include tamanio(30%,auto);
+    }
+
+    &__img{
+        @extend .bordesFinosAmarillos;
+        border-radius: 15px;
+    }
+}
+
+
+@media only screen and (min-width:992px){
+
+    .containerTitulos{
+    
+        &__containerImagen{
+            @include tamanio(100%,auto);
+        }
+    }
+}

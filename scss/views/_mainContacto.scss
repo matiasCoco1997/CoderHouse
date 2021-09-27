@@ -1,0 +1,68 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.formulario{
+    @extend .bordesAnchosAmarillos;
+    border-radius: 20px;
+    font-family: $fuenteRoboto;
+    color: $amarillo;
+    @include tamanio(95%,auto);
+    max-width: 500px;
+
+    &__titulo{
+        color: $amarillo;
+        font-weight: $negrita;
+    }
+
+    &__tituloInput{
+        @include tamanio(100%,auto);
+    }
+
+    &__ingresoDeDatos{
+        @include tamanio(100%,auto);
+        background-color: $azulClaro;
+        color: $amarillo;
+        @extend .bordesFinosAmarillos;
+        border-radius: 10px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    &__ingresoDeDatos::placeholder{
+        color: $amarillo;
+        opacity: 0.85;
+    }
+
+    &__ingresoDeDatos:focus{
+        outline: none;
+    }
+
+    &__containerBotones{
+        @include tamanio(100%,auto);
+        display: flex;
+    }
+
+    &__boton{
+        @include tamanio(45%,auto);
+        color: $azulClaro;
+        font-weight: $negrita;
+        background-color: $amarillo;
+        @extend .bordesFinosAmarillos;
+        border-radius: 10px;
+    }
+
+    &__boton:hover{
+        color: $amarillo;
+        background-color: $azulClaro; 
+        border-color:$amarillo;
+    }
+
+}
+
+.imagenContacto{
+    @extend .bordesAnchosAmarillos;
+    border-radius: 30px;
+}
+

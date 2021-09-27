@@ -1,0 +1,81 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.containerAside{
+    
+    &__oferta{
+        display: none;
+        @include tamanio(90%, 30%);
+        @extend .bordesFinosAmarillos;
+        border-radius: 30px;
+        background-color: $blancoOfertaRemera;
+        color: $azulOscuro;
+        max-width: 250px;
+    }
+
+    &__containerSponsors{
+        @extend .bordesFinosAmarillos;
+        @include tamanio(100%, auto);
+        border-radius: 20px;
+        max-width: 600px;
+    }
+
+    &__adidas{
+        @include tamanio(20%, auto);
+        max-width: 150px;
+    }
+
+    &__qatar{
+        @include tamanio(20%, auto);
+        max-width: 150px;
+    }
+
+    &__garbarino{
+        @include tamanio(40%, auto);
+        max-width: 150px;
+    } 
+}
+
+@media only screen and (min-width:992px){
+
+    .containerAside{
+
+        &__containerSponsors{
+            @include tamanio(90%, 30%);
+            max-width: 250px;
+        }
+    
+        &__adidas{
+            @include tamanio(50%, auto);
+            max-width: none;
+        }
+    
+        &__qatar{
+            @include tamanio(50%, auto);
+            max-width: none;
+        }
+    
+        &__garbarino{
+            @include tamanio(70%, auto);
+            max-width: none;
+        } 
+               
+    }     
+}
+
+
+@media only screen and (min-width:1400px){
+
+    .containerAside{
+
+        &__oferta{
+            height: 45%;
+        }
+    
+        &__containerSponsors{
+            height: 45%;
+        }          
+    }     
+}

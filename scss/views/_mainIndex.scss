@@ -1,0 +1,92 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.mainContainer{
+    background-color: $azulClaro;
+
+    &__containerNoticia{
+        background-color: $blanco;
+        font-family: $fuenteRoboto;
+        @extend .bordesAnchosNegros;
+        border-radius: 30px;
+        max-width: 600px;
+    }
+
+    &__containerNoticia:hover{
+        @extend .bordesAnchosAmarillos;
+    }
+
+    &__tituloNoticia{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: $negrita;
+    }
+
+    &__imgNoticia{
+        @extend .bordesFinosNegros;
+        max-width: 500px;
+    }
+
+    &__textoNoticia{
+        padding: 10px;
+        padding-top: 0px;
+    }
+
+    &__textoNoticia--negrita{
+        font-weight: $negrita;
+    }        
+}
+
+
+@media only screen and (min-width:992px){
+
+    .mainContainer{
+    
+        &__containerNoticia{
+            max-width: 1300px;
+        }
+    
+        &__tituloNoticia{
+            @include tamanio(100%, auto);
+        }
+    
+        &__imgNoticia{
+            @include tamanio(80%, auto);
+            max-width: none;
+        }
+    
+        &__textoNoticia{
+            @include tamanio(100%, auto);
+        }
+    
+        &__textoNoticia--negrita{
+            font-weight: $negrita;
+        }
+       
+    }     
+}
+
+
+@media only screen and (min-width:1400px){
+
+    .mainContainer{
+    
+        &__imgNoticia{
+            @include tamanio(50%, auto);
+            max-width: none;
+        }
+    
+        &__textoNoticia{
+            @include tamanio(50%, auto);
+        }
+    
+        &__textoNoticia--negrita{
+            font-weight: $negrita;
+        }
+    }     
+}
+
+
+

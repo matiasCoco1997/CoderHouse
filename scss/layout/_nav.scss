@@ -1,0 +1,103 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/mixins';
+
+.nav{
+    background-color: $azulOscuro;
+    font-family: $fuenteRoboto;
+
+    &__containerEnlaces{
+        @include tamanio(100%,auto);
+    }
+
+    &__enlace{
+        text-align: center;
+        font-weight: $negrita;
+        @include tamanio(100%,54px);
+        padding: 15px;
+    }
+
+    &__enlace#enlaceHome{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceHistoria{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceTitulos{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceGaleria{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceContacto{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceError{
+        color: $amarillo;
+    }
+
+    &__enlace#enlaceHome:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace#enlaceHistoria:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace#enlaceTitulos:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace#enlaceGaleria:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace#enlaceContacto:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace#enlaceError:hover{
+        background-color: $amarillo;
+        color: $azulOscuro;
+    }
+
+    &__enlace--izquierda{
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    &__enlace--derecha{
+        text-align: end;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    
+    .nav{
+
+        &__containerEnlaces--escritorio{
+            justify-content: center;
+        }
+
+        &__opcion{
+            @include tamanio(15%,auto);
+        }
+
+    }
+
+    
+}
+
+
+

@@ -1,0 +1,14 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.galeria{
+
+    &__fotografia{
+        @extend .bordesAnchosAmarillos;
+        border-radius: 30px;
+        @include tamanio(80%,auto);
+        max-width: 400px;
+    }
+}

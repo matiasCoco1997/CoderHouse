@@ -1,0 +1,57 @@
+@import 'utilities/variables';
+@import 'base/extends';
+@import 'base/mixins';
+
+.carrusel{
+    @extend .bordesAnchosAmarillosVerticales;
+    @include tamanio(100%,250px);
+
+    &__containerImagenes{
+        @include tamanio(100%,100%);
+    }
+
+    &__containerImagen{
+        @include tamanio(100%,100%);
+    }
+
+    &__img{
+        @include tamanio(100%,100%);
+    }
+
+    &__flechaIzquierda{
+        @include tamanio(50px,50px);
+    }
+
+    &__flechaDerecha{
+        @include tamanio(50px,50px);
+    }
+}
+
+@media only screen and (min-width:600px){
+    
+    .carrusel{
+        @include tamanio(100%,500px);
+    }
+}
+
+@media only screen and (min-width:992px){
+    
+    .carrusel{
+        @include tamanio(100%,600px);
+
+        &__flechaIzquierda{
+            @include tamanio(80px,80px);
+        }
+    
+        &__flechaDerecha{
+            @include tamanio(80px,80px);
+        }
+    }
+}
+
+@media only screen and (min-width:1400px){
+    
+    .carrusel{
+        @include tamanio(100%,800px);
+    }
+}

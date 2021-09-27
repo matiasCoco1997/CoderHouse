@@ -1,0 +1,53 @@
+@import 'utilities/variables';
+@import 'base/tipografias';
+@import 'base/extends';
+@import 'base/mixins';
+
+.containerFooter{
+    background-color: $negro;
+    color: $blanco;
+
+    &__datosDeContacto{
+        background-color: $blancoFooter;
+        @extend .bordesFinosAmarillos;
+        border-radius: 30px;
+        max-width: 415px;
+    }
+
+    &__escudo{
+        @include tamanio(70%,auto);
+        max-width: 290px;
+    }
+
+    &__containerRedesSociales{
+        display: flex;
+        @include tamanio(100%,auto);
+    }
+
+    &__titulo{
+        width: 100%;
+        text-align: center;
+    }
+
+    &__enlaceRedSocial{
+        @include tamanio(35px,auto);
+    }
+
+    &__copyright{
+        @include tamanio(100%,auto);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px){
+
+    .containerFooter{
+
+        &__copyright{
+            flex-direction: row;
+            justify-content: space-around;
+        } 
+    }
+}
